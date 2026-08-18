@@ -24,7 +24,7 @@ class PreferencesCrossfadeHook: ClassHook<NSObject> {
 
 func activateEeveeCrossfadeForce() {
     guard NSClassFromString(PreferencesCrossfadeHook.targetName) != nil else {
-        NSLog("[EeveeSpotify][Crossfade] Skipped: \(PreferencesCrossfadeHook.targetName) not found")
+        NSLog("[Scimonetify][Crossfade] Skipped: \(PreferencesCrossfadeHook.targetName) not found")
         return
     }
     EeveeCrossfadePrefGroup().activate()

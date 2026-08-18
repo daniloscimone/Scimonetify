@@ -23,7 +23,7 @@ restart_is_required_description = "Cần phải khởi động lại ứng dụn
 // Patching
 
 do_not_patch_premium = "Không vá Premium";
-patching_description = "EeveeSpotify chặn các yêu cầu tải dữ liệu người dùng, giải tuần tự hóa và sửa đổi các tham số trong thời gian thực.
+patching_description = "Scimonetify chặn các yêu cầu tải dữ liệu người dùng, giải tuần tự hóa và sửa đổi các tham số trong thời gian thực.
 
 Nếu bạn đã đăng ký Premium, bạn có thể bật Không vá Premium. Bản vá sẽ không can thiệp vào dữ liệu hoặc hạn chế việc sử dụng các tính năng Premium phía máy chủ (server-sided).
 
@@ -46,7 +46,7 @@ Genius: Cung cấp lời bài hát có chất lượng tốt nhất, hỗ trợ 
 LRCLIB: Dịch vụ mã nguồn mở, cung cấp lời bài hát đồng bộ thời gian. Tuy nhiên, nguồn này thiếu lời cho nhiều bài hát.
 
 Musixmatch: Dịch vụ mà Spotify sử dụng. Cung cấp lời bài hát khớp thời gian cho nhiều bài hát, nhưng bạn sẽ cần token người dùng để sử dụng nguồn này.";
-lyrics_additional_info = "Nếu EeveeSpotify không thể tìm thấy bài hát hoặc xử lý lời bài hát, bạn sẽ thấy thông báo \"Không thể tải lời bài hát cho bài hát này\". Lời bài hát có thể bị sai đối với một số bài hát khi sử dụng Genius do cách bản vá tìm kiếm bài hát. Tôi đã tối ưu để nó hoạt động tốt trong hầu hết các trường hợp.";
+lyrics_additional_info = "Nếu Scimonetify không thể tìm thấy bài hát hoặc xử lý lời bài hát, bạn sẽ thấy thông báo \"Không thể tải lời bài hát cho bài hát này\". Lời bài hát có thể bị sai đối với một số bài hát khi sử dụng Genius do cách bản vá tìm kiếm bài hát. Tôi đã tối ưu để nó hoạt động tốt trong hầu hết các trường hợp.";
 petitlyrics_description = "PetitLyrics: Cung cấp nhiều lời bài hát tiếng Nhật và một số bài hát quốc tế đồng bộ thời gian.";
 
 musixmatch_user_token = "Mã token người dùng Musixmatch";
@@ -94,7 +94,7 @@ livecontainer_sharing_description = "Chia sẻ lên LiveContainer và sao chép 
 
 /* MARK: Premium PopUps */
 
-have_premium_popup = "Có vẻ như bạn có một đăng ký gói Premium đang hoạt động, vì vậy bản vá sẽ không can thiệp vào dữ liệu hoặc hạn chế việc sử dụng các tính năng Premium phía máy chủ. Bạn có thể quản lý điều này trong phần cài đặt EeveeSpotify.";
+have_premium_popup = "Có vẻ như bạn có một đăng ký gói Premium đang hoạt động, vì vậy bản vá sẽ không can thiệp vào dữ liệu hoặc hạn chế việc sử dụng các tính năng Premium phía máy chủ. Bạn có thể quản lý điều này trong phần cài đặt Scimonetify.";
 
 high_audio_quality_popup = "Chất lượng âm thanh rất cao do phía máy chủ quản lý và không khả dụng với bản vá này.";
 playlist_downloading_popup = "Tính năng tải xuống danh sách phát gốc do phía máy chủ quản lý và không khả dụng với bản vá này. Tuy nhiên, bạn vẫn có thể tải xuống các tập podcast và danh sách phát cục bộ.";
@@ -143,7 +143,7 @@ ad_free_music_listening = "Nghe nhạc không quảng cáo";
 play_songs_in_any_order = "Phát nhạc theo thứ tự bất kỳ";
 organize_listening_queue = "Sắp xếp danh sách chờ nghe";
 
-payment_notice = "EeveeSpotify áp dụng các bản vá để mở khóa một số tính năng Premium. Nó hoàn toàn miễn phí.";
+payment_notice = "Scimonetify áp dụng các bản vá để mở khóa một số tính năng Premium. Nó hoàn toàn miễn phí.";
 
 // Debug
 

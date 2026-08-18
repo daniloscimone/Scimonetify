@@ -28,7 +28,7 @@ private let logAdBlockerEvents         = true
 
 @inline(__always)
 private func adlog(_ what: String) {
-    if logAdBlockerEvents { NSLog("[EeveeSpotify][AdBlock] suppressed %@", what) }
+    if logAdBlockerEvents { NSLog("[Scimonetify][AdBlock] suppressed %@", what) }
 }
 
 class AdsServiceImplKill: ClassHook<NSObject> {
@@ -117,24 +117,24 @@ func activateEeveeAdBlockerExtended() {
     for (className, label, activate) in loadTargets {
         guard let cls = NSClassFromString(className),
               class_getInstanceMethod(cls, loadSelector) != nil else {
-            NSLog("[EeveeSpotify][AdBlock] %@/load unavailable; skipping", label)
+            NSLog("[Scimonetify][AdBlock] %@/load unavailable; skipping", label)
             continue
         }
         activate()
         activated += 1
-        NSLog("[EeveeSpotify][AdBlock] %@ hook activated", label)
+        NSLog("[Scimonetify][AdBlock] %@ hook activated", label)
     }
 
     if let cls = NSClassFromString(SponsoredCtxAttachmentProbe.targetName),
        class_getInstanceMethod(cls, initSelector) != nil {
         SponsoredCtxAttachmentGroup().activate()
         activated += 1
-        NSLog("[EeveeSpotify][AdBlock] SponsoredCtxAttachment hook activated")
+        NSLog("[Scimonetify][AdBlock] SponsoredCtxAttachment hook activated")
     } else {
-        NSLog("[EeveeSpotify][AdBlock] SponsoredCtxAttachment/init unavailable; skipping")
+        NSLog("[Scimonetify][AdBlock] SponsoredCtxAttachment/init unavailable; skipping")
     }
 
-    NSLog("[EeveeSpotify][AdBlock] activated %d/%d compatible extended hooks",
+    NSLog("[Scimonetify][AdBlock] activated %d/%d compatible extended hooks",
           activated, loadTargets.count + 1)
     #else
     let probes: [String] = [
@@ -144,13 +144,13 @@ func activateEeveeAdBlockerExtended() {
         "_TtC20NativeAds_LoggerImpl26NativeAdsLoggerServiceImpl",
     ]
     let presentCount = probes.filter { NSClassFromString($0) != nil }.count
-    NSLog("[EeveeSpotify][AdBlock] target classes resolved: %d/%d",
+    NSLog("[Scimonetify][AdBlock] target classes resolved: %d/%d",
           presentCount, probes.count)
     guard presentCount > 0 else {
-        NSLog("[EeveeSpotify][AdBlock] no target classes present; skip activation")
+        NSLog("[Scimonetify][AdBlock] no target classes present; skip activation")
         return
     }
     EeveeAdBlockerExtendedGroup().activate()
-    NSLog("[EeveeSpotify][AdBlock] EeveeAdBlockerExtendedGroup activated")
+    NSLog("[Scimonetify][AdBlock] EeveeAdBlockerExtendedGroup activated")
     #endif
 }

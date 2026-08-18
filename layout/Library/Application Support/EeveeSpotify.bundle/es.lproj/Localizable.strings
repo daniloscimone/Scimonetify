@@ -21,9 +21,9 @@ restart_is_required_description = "Es necesario reiniciar la aplicación para ap
 // Patching
 
 do_not_patch_premium = "No modificar las funciones Premium predeterminadas";
-patching_description = "EeveeSpotify intercepta las solicitudes de carga de datos de usuario, las deserializa y modifica los parámetros en tiempo real.
+patching_description = "Scimonetify intercepta las solicitudes de carga de datos de usuario, las deserializa y modifica los parámetros en tiempo real.
 
-Si tienes una suscripción Premium activa, puedes activar \"No modificar las funciones Premium predeterminadas\". EeveeSpotify no modificará los datos ni restringirá el uso de las funciones Premium del servidor.
+Si tienes una suscripción Premium activa, puedes activar \"No modificar las funciones Premium predeterminadas\". Scimonetify no modificará los datos ni restringirá el uso de las funciones Premium del servidor.
 
 %@";
 
@@ -41,7 +41,7 @@ Genius: Ofrece la mejor calidad de letras, proporciona el mayor número de canci
 LRCLIB: Es el servicio más abierto y ofrece letras sincronizadas con el tiempo. Sin embargo, carece de letras para muchas canciones.
 
 Musixmatch: El servicio que utiliza Spotify. Ofrece letras sincronizadas con el tiempo para muchas canciones, pero necesitarás un token de usuario para utilizar esta fuente.";
-lyrics_additional_info = "Si EeveeSpotify no puede encontrar una canción o procesar la letra, verás un mensaje: \"No se ha podido cargar la letra de esta canción\". La letra puede ser incorrecta para algunas canciones cuando se utiliza Genius debido a la forma en que el programa busca las canciones. He conseguido que funcione en la mayoría de los casos.";
+lyrics_additional_info = "Si Scimonetify no puede encontrar una canción o procesar la letra, verás un mensaje: \"No se ha podido cargar la letra de esta canción\". La letra puede ser incorrecta para algunas canciones cuando se utiliza Genius debido a la forma en que el programa busca las canciones. He conseguido que funcione en la mayoría de los casos.";
 petitlyrics_description = "PetitLyrics: Ofrece un montón de letras en japonés sincronizadas con el tiempo y algunas internacionales.";
 
 musixmatch_user_token = "Token de Usuario de Musixmatch";
@@ -89,7 +89,7 @@ livecontainer_sharing_description = "Compartir en LiveContainer y copiar la URL 
 
 /* MARK: Premium PopUps */
 
-have_premium_popup = "Parece que tienes una suscripción Premium activa, por lo que EeveeSpotify no modificará los datos ni restringirá el uso de las funciones Premium del servidor. Puedes gestionar esto en los ajustes de EeveeSpotify.";
+have_premium_popup = "Parece que tienes una suscripción Premium activa, por lo que Scimonetify no modificará los datos ni restringirá el uso de las funciones Premium del servidor. Puedes gestionar esto en los ajustes de Scimonetify.";
 
 high_audio_quality_popup = "La calidad de audio muy alta depende del servidor y no está disponible con este paquete de modificaciones.";
 playlist_downloading_popup = "La descarga nativa de listas de reproducción se realiza desde el servidor y no está disponible con este paquete de modificaciones. Sin embargo, puede descargar episodios de podcasts y listas de reproducción locales.";
@@ -104,8 +104,8 @@ could_not_share_popup = "No se ha podido compartir al destino o LiveContainer se
 fallback_attribute = "Alternativa";
 romanized_attribute = "Romanizada";
 
-musixmatch_unauthorized_popup = "EeveeSpotify no puede cargar letras de Musixmatch debido a un error no autorizado. Por favor, comprueba o actualiza tu token de Musixmatch. Si utilizas un iPad, debes obtener el token de la aplicación Musixmatch para iPad.";
-musixmatch_restricted_popup = "EeveeSpotify no puede cargar letras de Musixmatch porque están restringidas. Es probable que sea un problema de copyright debido a la dirección IP de EE.UU., por lo que deberías cambiarla si estás en EE.UU. o usar una VPN.";
+musixmatch_unauthorized_popup = "Scimonetify no puede cargar letras de Musixmatch debido a un error no autorizado. Por favor, comprueba o actualiza tu token de Musixmatch. Si utilizas un iPad, debes obtener el token de la aplicación Musixmatch para iPad.";
+musixmatch_restricted_popup = "Scimonetify no puede cargar letras de Musixmatch porque están restringidas. Es probable que sea un problema de copyright debido a la dirección IP de EE.UU., por lo que deberías cambiarla si estás en EE.UU. o usar una VPN.";
 
 // Errors Titles
 
@@ -138,7 +138,7 @@ ad_free_music_listening = "Escuchar música sin anuncios";
 play_songs_in_any_order = "Reproducir canciones en cualquier orden";
 organize_listening_queue = "Organizar la cola de reproducción";
 
-payment_notice = "EeveeSpotify aplica modificaciones para desbloquear ciertas funciones Premium. Es gratis.";
+payment_notice = "Scimonetify aplica modificaciones para desbloquear ciertas funciones Premium. Es gratis.";
 
 
 // Debug

@@ -49,7 +49,7 @@ enum SponsorBlockAPI {
 
         var req = URLRequest(url: url)
         req.httpMethod = "GET"
-        req.setValue("EeveeSpotify-SponsorBlock/1", forHTTPHeaderField: "X-CLIENT-NAME")
+        req.setValue("Scimonetify-SponsorBlock/1", forHTTPHeaderField: "X-CLIENT-NAME")
 
         session.dataTask(with: req) { data, resp, err in
             if let err { completion(.failure(err)); return }

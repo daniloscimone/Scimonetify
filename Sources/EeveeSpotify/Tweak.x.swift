@@ -6,9 +6,9 @@ import ObjectiveC.runtime
 
 func writeDebugLog(_ message: String) {
     // Log to system console
-    NSLog("[EeveeSpotify] %@", message)
+    NSLog("[Scimonetify] %@", message)
 
-    let logPath = NSTemporaryDirectory() + "eeveespotify_debug.log"
+    let logPath = NSTemporaryDirectory() + "scimonetify_debug.log"
     let timestamp = Date().description
     let logMessage = "[\(timestamp)] \(message)\n"
     
@@ -92,7 +92,7 @@ func activatePremiumPatchingGroup() {
 // missing private selectors.
 func activateSessionLogoutProtection(minimal: Bool) {
     func log(_ msg: String) {
-        NSLog("[EeveeSpotify][SessionProtect] %@", msg)
+        NSLog("[Scimonetify][SessionProtect] %@", msg)
     }
 
     @inline(__always)
@@ -179,7 +179,7 @@ func activateSessionLogoutProtection(minimal: Bool) {
 // MARK: - Bootstrap breadcrumbs
 @inline(__always)
 func eeveeBreadcrumb(_ label: String) {
-    let path = NSTemporaryDirectory() + "eeveespotify_boot.txt"
+    let path = NSTemporaryDirectory() + "scimonetify_boot.txt"
     let ts = Date().description
     let line = "[\(ts)] \(label)\n"
     if let data = line.data(using: .utf8) {
@@ -206,7 +206,7 @@ struct EeveeSpotify: Tweak {
     static var hookTarget: VersionHookTarget {
         let version = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as! String
         
-        NSLog("[EeveeSpotify] Detected Spotify version: \(version)")
+        NSLog("[Scimonetify] Detected Spotify version: \(version)")
         
         switch version {
         case "9.0.48":
@@ -237,7 +237,7 @@ struct EeveeSpotify: Tweak {
     // instead of taking down the whole app. Log it and move on.
     static func handleError(_ error: OrionHookError) {
         let description = error.description
-        NSLog("[EeveeSpotify][OrionError] Hook activation failed (non-fatal): %@", description)
+        NSLog("[Scimonetify][OrionError] Hook activation failed (non-fatal): %@", description)
         writeDebugLog("[ORION ERROR] \(description)")
         eeveeBreadcrumb("Orion hook activation failed (continuing): \(description)")
         // Deliberately NOT calling handleErrorDefault(error) here - that is what fatalErrors.
@@ -266,7 +266,7 @@ struct EeveeSpotify: Tweak {
         // Block upsell components injected into Hub/home JSON (e.g. upgrade banners).
         if NSClassFromString("HUBViewModelBuilderImplementation") != nil {
             AdBlockerGroup().activate()
-            NSLog("[EeveeSpotify] AdBlockerGroup activated")
+            NSLog("[Scimonetify] AdBlockerGroup activated")
         }
 
         // activateEeveeFlexGesture()
@@ -293,7 +293,7 @@ struct EeveeSpotify: Tweak {
         let iosVersion = UIDevice.current.systemVersion
         let deviceModel = UIDevice.current.model
 
-        writeDebugLog("=== EeveeSpotify \(EeveeSpotify.version) (build \(EeveeSpotify.buildNumber)) starting ===")
+        writeDebugLog("=== Scimonetify \(EeveeSpotify.version) (build \(EeveeSpotify.buildNumber)) starting ===")
         writeDebugLog("[INIT] Spotify: \(spotifyVersion) (build \(spotifyBuild))")
         writeDebugLog("[INIT] iOS: \(iosVersion), Device: \(deviceModel)")
         writeDebugLog("[INIT] Hook target: \(EeveeSpotify.hookTarget)")
@@ -408,7 +408,7 @@ struct EeveeSpotify: Tweak {
             } else {
                 writeDebugLog("[INIT] Settings_PlatformImpl.SettingsListViewController missing")
             }
-            NSLog("[EeveeSpotify] Initialization complete for 9.1.x")
+            NSLog("[Scimonetify] Initialization complete for 9.1.x")
             TrueShuffleHook.install()
             activateEeveeProbes()
             activateSponsorBlock()

@@ -11,17 +11,17 @@ common_issues_tip_message = "曲を再生できないなどの問題が発生し
 common_issues_tip_button = "一般的な問題";
 
 reset_data = "データをリセット";
-reset_data_description = "キャッシュデータを消去してEeveeSpotifyを再起動します。";
+reset_data_description = "キャッシュデータを消去してScimonetifyを再起動します。";
 
 checking_for_update = "アップデートを確認中...";
 update_available = "アップデートが可能";
 
-restart_is_required_description = "この設定の変更を適用するにはEeveeSpotifyの再起動が必要です。";
+restart_is_required_description = "この設定の変更を適用するにはScimonetifyの再起動が必要です。";
 
 // Patching
 
 do_not_patch_premium = "パッチを適用しない";
-patching_description = "EeveeSpotifyは、Spotifyがユーザーデータを読み込むリクエストを受け取って内容を確認し、必要なら書き換えて変更後の情報をSpotifyに送信します。
+patching_description = "Scimonetifyは、Spotifyがユーザーデータを読み込むリクエストを受け取って内容を確認し、必要なら書き換えて変更後の情報をSpotifyに送信します。
  
 プレミアムに加入している場合は、「パッチを適用しない」をオンにすることができます。この設定によって、データが変更されたり、プレミアムの機能が制限されたりすることはありません。
 
@@ -138,4 +138,4 @@ ad_free_music_listening = "広告ナシで音楽が聴ける";
 play_songs_in_any_order = "好きな曲順で再生";
 organize_listening_queue = "次に再生する楽曲のリストを整理できる";
 
-payment_notice = "EeveeSpotifyは、無料で一部のプレミアムの機能を使えるようにするパッチを適用します。";
+payment_notice = "Scimonetifyは、無料で一部のプレミアムの機能を使えるようにするパッチを適用します。";

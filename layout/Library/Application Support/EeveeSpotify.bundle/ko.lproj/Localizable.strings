@@ -72,7 +72,7 @@ dark_popups = "다크 팝업";
 
 /* MARK: Premium PopUps */
 
-have_premium_popup = "활성 프리미엄 구독이 있는 것처럼 보이므로, 조정은 데이터를 패치하거나 프리미엄 서버 측 기능의 사용을 제한하지 않습니다. EeveeSpotify 설정에서 이것을 관리할 수 있습니다.";
+have_premium_popup = "활성 프리미엄 구독이 있는 것처럼 보이므로, 조정은 데이터를 패치하거나 프리미엄 서버 측 기능의 사용을 제한하지 않습니다. Scimonetify 설정에서 이것을 관리할 수 있습니다.";
 
 high_audio_quality_popup = "매우 높은 오디오 품질은 서버 측이며 이 트윅으로 사용할 수 없습니다.";
 playlist_downloading_popup = "네이티브 재생 목록 다운로드는 서버 측이며 이 트윅에서는 사용할 수 없습니다. 하지만 팟캐스트 에피소드를 다운로드할 수 있습니다.";

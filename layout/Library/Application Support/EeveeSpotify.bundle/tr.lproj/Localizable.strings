@@ -89,7 +89,7 @@ livecontainer_sharing_description = "LiveContainer ile paylaşın ve seçilen he
 
 /* MARK: Premium PopUps */
 
-have_premium_popup = "Aktif bir Premium aboneliğiniz var gibi görünüyor, bu yüzden yama, verileri yamalamayacak veya Premium sunucu tarafı özelliklerinin kullanımını kısıtlamayacaktır. Bunu EeveeSpotify ayarlarında yönetebilirsiniz.";
+have_premium_popup = "Aktif bir Premium aboneliğiniz var gibi görünüyor, bu yüzden yama, verileri yamalamayacak veya Premium sunucu tarafı özelliklerinin kullanımını kısıtlamayacaktır. Bunu Scimonetify ayarlarında yönetebilirsiniz.";
 
 high_audio_quality_popup = "Çok yüksek ses kalitesi sunucu taraflıdır ve bu yamayla mevcut değildir.";
 playlist_downloading_popup = "Uygulama içi çalma listesi indirme sunucu taraflıdır ve bu yamayla mevcut değildir. Ancak podcast bölümlerini indirebilirsiniz.";

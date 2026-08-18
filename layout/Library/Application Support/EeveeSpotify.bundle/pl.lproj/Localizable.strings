@@ -46,7 +46,7 @@ Genius: Najlepsza jakość, najczęściej aktualizowane źródło. Nie jest i ni
 LRCLIB: Najbardziej otwarte źródło, oferuje zsynchronizowane teksty. Brakuje w nim jednak wielu utworów.
 
 Musixmatch: Używane przez Spotify, oferuje zsynchronizowane teksty dla wielu utworów. Wymaga tokenu użytkownika.";
-lyrics_additional_info = "Jeśli EeveeSpotify nie znajdzie utworu lub tekstu, pojawi się komunikat \"Nie udało się załadować tekstu\". Teksty z Genius mogą być błędne z powodu sposobu wyszukiwania utworów. W większości przypadków działa to poprawnie.";
+lyrics_additional_info = "Jeśli Scimonetify nie znajdzie utworu lub tekstu, pojawi się komunikat \"Nie udało się załadować tekstu\". Teksty z Genius mogą być błędne z powodu sposobu wyszukiwania utworów. W większości przypadków działa to poprawnie.";
 petitlyrics_description = "PetitLyrics: Oferuje wiele zsynchronizowanych tekstów japońskich, ale niewiele międzynarodowych.";
 
 musixmatch_user_token = "Token użytkownika Musixmatch";
@@ -94,7 +94,7 @@ livecontainer_sharing_description = "Umożliwia udostępniane do LiveContainer i
 
 /* MARK: Premium PopUps */
 
-have_premium_popup = "Wygląda na to, że masz aktywną subskrypcję Premium, więc modyfikacja nie będzie zmieniać danych ani ograniczać korzystania z funkcji Premium po stronie serwera. Możesz to zmienić w ustawieniach EeveeSpotify";
+have_premium_popup = "Wygląda na to, że masz aktywną subskrypcję Premium, więc modyfikacja nie będzie zmieniać danych ani ograniczać korzystania z funkcji Premium po stronie serwera. Możesz to zmienić w ustawieniach Scimonetify";
 
 high_audio_quality_popup = "Bardzo wysoka jakość dźwięku jest kontrolowana po stronie serwera i nie jest dostępna w tej modyfikacji.";
 playlist_downloading_popup = "Natywne pobieranie playlist jest kontrolowane po stronie serwera i nie jest dostępne w tej modyfikacji. Możesz jednak pobierać odcinki podcastów i lokalne listy odtwarzania";
@@ -143,7 +143,7 @@ ad_free_music_listening = "Słuchanie muzyki bez reklam";
 play_songs_in_any_order = "Odtwarzanie w dowolnej kolejności";
 organize_listening_queue = "Zarządzanie swoją kolejką odtwarzania";
 
-payment_notice = "EeveeSpotify stosuje modyfikacje, aby odblokować niektóre funkcje Premium. Całkowicie za darmo.";
+payment_notice = "Scimonetify stosuje modyfikacje, aby odblokować niektóre funkcje Premium. Całkowicie za darmo.";
 
 // Debug
 

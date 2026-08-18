@@ -21,9 +21,9 @@ restart_is_required_description = "Cal reiniciar l'aplicació per aplicar els ca
 // Patching
 
 do_not_patch_premium = "No modificar el Premium predeterminat";
-patching_description = "L'EeveeSpotify intercepta peticions de càrrega de dades de l'usuari, les deserialitza i en modifica els paràmetres en temps real.
+patching_description = "L'Scimonetify intercepta peticions de càrrega de dades de l'usuari, les deserialitza i en modifica els paràmetres en temps real.
 
-Si tens una subscripció Premium activa, pots activar l'opció «No modificar el Premium predeterminat». L'EeveeSpotify ja no modificarà les dades ni restringirà l'ús de les funcions Premium que depenen del servidor.
+Si tens una subscripció Premium activa, pots activar l'opció «No modificar el Premium predeterminat». L'Scimonetify ja no modificarà les dades ni restringirà l'ús de les funcions Premium que depenen del servidor.
 
 %@";
 
@@ -41,7 +41,7 @@ Genius: Ofereix les lletres de més qualitat, té disponibles la major part de c
 LRCLib: És el servei més obert, ofereix lletres sincronitzades amb els temps de les cançons. No obstant, manca les lletres per moltes cançons.
 
 Musixmatch: És el servei que utilitza Spotify. Forneix lletres sincronitzades amb el temps de moltes cançons, però necessitaràs un token d'usuari per utilitzar-lo.";
-lyrics_additional_info = "Si l'EeveeSpotify no pot trobar una cançó o processar-ne la lletra, es mostrarà el missatge «No s'ha pogut carregar la lletra d'aquesta cançó». La lletra podria ser incorrecta per algunes de les cançons quan s'utilitza Genius degut al mètode que s'utilitza per trobar les cançons. He aconseguit fer-ho funcionar per la majoria de casos.";
+lyrics_additional_info = "Si l'Scimonetify no pot trobar una cançó o processar-ne la lletra, es mostrarà el missatge «No s'ha pogut carregar la lletra d'aquesta cançó». La lletra podria ser incorrecta per algunes de les cançons quan s'utilitza Genius degut al mètode que s'utilitza per trobar les cançons. He aconseguit fer-ho funcionar per la majoria de casos.";
 petitlyrics_description = "PetitLyrics: Ofereix una abundància de lletres sincronitzades amb els temps de les cançons en japonès i per algunes lletres de cançons internacionals.";
 
 musixmatch_user_token = "Token d'usuari de Musixmatch";
@@ -89,7 +89,7 @@ livecontainer_sharing_description = "Comparteix a LiveContainer i copia l'URL si
 
 /* MARK: Premium PopUps */
 
-have_premium_popup = "Sembla que tens una subscripció Premium activa, l'EeveeSpotify no modificarà les dades ni restringirà l'ús de les funcions Premium que depenen del servidor. Això es pot modificar des de la configuració de l'EeveeSpotify.";
+have_premium_popup = "Sembla que tens una subscripció Premium activa, l'Scimonetify no modificarà les dades ni restringirà l'ús de les funcions Premium que depenen del servidor. Això es pot modificar des de la configuració de l'Scimonetify.";
 
 high_audio_quality_popup = "La qualitat d'àudio molt alta depèn del servidor i no està disponible amb aquest paquet de modificacions.";
 playlist_downloading_popup = "La descàrrega nativa de llistes de reproducció depèn del servidor i no està disponible amb aquest paquet de modificacions. No obstant, pots descarregar episodis de podcasts i llistes de reproducció locals.";
@@ -104,8 +104,8 @@ could_not_share_popup = "No s'ha pogut compartir al destí seleccionat o LiveCon
 fallback_attribute = "Fallback";
 romanized_attribute = "Romanitzat";
 
-musixmatch_unauthorized_popup = "L'EeveeSpotify no pot carregar lletres de Musixmatch a causa d'un error d'autorització. Si us plau comprova el teu token d'usuari de Musixmatch. Si utilitzes un iPad, has d'obtenir el token de l'aplicació de Musixmatch per iPad.";
-musixmatch_restricted_popup = "L'EeveeSpotify no pot carregar lletres de Musixmatch perquè estan restringides. Aquest error pot donar-se per restriccions de copyright als Estats Units; per adreces IP dels Estats Units, cal canviar el servei de lletres o emprar una VPN.";
+musixmatch_unauthorized_popup = "L'Scimonetify no pot carregar lletres de Musixmatch a causa d'un error d'autorització. Si us plau comprova el teu token d'usuari de Musixmatch. Si utilitzes un iPad, has d'obtenir el token de l'aplicació de Musixmatch per iPad.";
+musixmatch_restricted_popup = "L'Scimonetify no pot carregar lletres de Musixmatch perquè estan restringides. Aquest error pot donar-se per restriccions de copyright als Estats Units; per adreces IP dels Estats Units, cal canviar el servei de lletres o emprar una VPN.";
 
 // Errors Titles
 
@@ -139,7 +139,7 @@ ad_free_music_listening = "Escoltà música sense anuncis";
 play_songs_in_any_order = "Reprodueix cançons en qualsevol ordre";
 organize_listening_queue = "Organitza la cua de reproducció";
 
-payment_notice = "L'EeveeSpotify aplica modificacions per desbloquejar certes funcions Premium. És gratuït.";
+payment_notice = "L'Scimonetify aplica modificacions per desbloquejar certes funcions Premium. És gratuït.";
 
 
 // Debug

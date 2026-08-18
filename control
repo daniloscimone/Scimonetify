@@ -1,9 +1,11 @@
 Package: com.eevee.spotify
-Name: EeveeSpotify
+Name: Scimonetify
 Version: 6.6.7
 Architecture: iphoneos-arm
 Description: A tweak to get Spotify Premium for free, just like Spotilife
-Maintainer: jaydenjcpy
-Author: Eevee
+Maintainer: Danilo Scimone
+Author: Danilo Scimone
 Section: Tweaks
 Depends: ${ORION}, firmware (>= 14.0)
+Homepage: https://www.daniloscimone.me
+Depiction: https://eeveespotifyios.netlify.app

@@ -65,7 +65,7 @@ class SPTEncorePopUpPresenterHook: ClassHook<NSObject> {
                  ?? kvcString(popUp, "descriptionText") ?? kvcString(popUp, "body")
 
         if isUpsellText(title) || isUpsellText(desc) {
-            NSLog("[EeveeSpotify][UpsellBlock] Blocked popup — title=%@ desc=%@",
+            NSLog("[Scimonetify][UpsellBlock] Blocked popup — title=%@ desc=%@",
                   title ?? "(nil)", desc ?? "(nil)")
             return
         }
@@ -76,9 +76,9 @@ class SPTEncorePopUpPresenterHook: ClassHook<NSObject> {
 
 func activateUpsellPopupBlocker() {
     guard NSClassFromString("SPTEncorePopUpPresenter") != nil else {
-        NSLog("[EeveeSpotify][UpsellBlock] SPTEncorePopUpPresenter not found; skipping")
+        NSLog("[Scimonetify][UpsellBlock] SPTEncorePopUpPresenter not found; skipping")
         return
     }
     UpsellPopupBlockerGroup().activate()
-    NSLog("[EeveeSpotify][UpsellBlock] UpsellPopupBlockerGroup activated")
+    NSLog("[Scimonetify][UpsellBlock] UpsellPopupBlockerGroup activated")
 }

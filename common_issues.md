@@ -1,10 +1,10 @@
-On this page, you'll find a detailed FAQ covering various topics related to EeveeSpotify, answers to common questions, and more.
+On this page, you'll find a detailed FAQ covering various topics related to Scimonetify, answers to common questions, and more.
 
 # Versions and Support
 
-EeveeSpotify currently supports Spotify version **9.1.68** (the latest version compatible with iOS 16.1+). 
+Scimonetify currently supports Spotify version **9.1.68** (the latest version compatible with iOS 16.1+). 
 
-If you are jailbroken, install the latest .deb from the [releases page](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated/releases), along with the latest Spotify from the App Store. After installation, open the EeveeSpotify settings (accessible from your Spotify profile settings) and reset data so it will properly patch Premium features.
+If you are jailbroken, install the latest .deb from the [releases page](https://github.com/daniloscimone/Scimonetify/releases), along with the latest Spotify from the App Store. After installation, open the Scimonetify settings (accessible from your Spotify profile settings) and reset data so it will properly patch Premium features.
 
 For non-jailbroken devices, use the patched IPA files available in the releases. You can install these using:
 - **TrollStore** (recommended for iOS 14-16.6.1, 17.0)
@@ -12,9 +12,9 @@ For non-jailbroken devices, use the patched IPA files available in the releases.
 - **AltStore** (7-day signing)
 - **Signing services** with paid certificates
 
-EeveeSpotify only supports iOS and iPadOS and is not planned to be supported on other platforms. You can sideload the iPadOS version on an Apple Silicon Mac, though.
+Scimonetify only supports iOS and iPadOS and is not planned to be supported on other platforms. You can sideload the iPadOS version on an Apple Silicon Mac, though.
 
-New versions are released when compatible Spotify updates become available. Check the [releases page](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated/releases) for the latest builds, or join the [Telegram channel](https://t.me/compiledipas) for IPA downloads and updates.
+New versions are released when compatible Spotify updates become available. Check the [releases page](https://github.com/daniloscimone/Scimonetify/releases) for the latest builds, or join the [Telegram channel](https://t.me/compiledipas) for IPA downloads and updates.
 
 ## CarPlay, Siri and Dynamic Island/Lockscreen
 
@@ -26,7 +26,7 @@ If you're using a paid certificate, to navigate to a song from the lock screen, 
 
 # Feature Requests
 
-EeveeSpotify does not accept free feature requests. If you need something, feel free to implement it yourself, or submit a pull request if you think others may find it useful. If you're willing to pay for a feature, open an issue to discuss further opportunities.
+Scimonetify does not accept free feature requests. If you need something, feel free to implement it yourself, or submit a pull request if you think others may find it useful. If you're willing to pay for a feature, open an issue to discuss further opportunities.
 
 Note that many Premium features are server-sided and will never work without a Premium subscription (e.g., very high quality audio, offline downloads on mobile data).
 
@@ -34,10 +34,10 @@ Note that many Premium features are server-sided and will never work without a P
 
 ## Accessing Settings
 
-EeveeSpotify settings can be accessed from within the Spotify app:
+Scimonetify settings can be accessed from within the Spotify app:
 1. Open Spotify
 2. Tap your profile icon (top right)
-3. Scroll down to find "EeveeSpotify" in the settings list
+3. Scroll down to find "Scimonetify" in the settings list
 4. Tap to access all tweak settings
 
 ## Something Went Wrong
@@ -51,11 +51,11 @@ If you're unable to sign in and see an error, try these solutions:
 ## Lyrics Not Showing Up
 
 If you see the "Couldn't load the lyrics for this song" message and no lyrics load:
-1. Open EeveeSpotify settings
+1. Open Scimonetify settings
 2. Go to the Lyrics section
 3. Try changing the lyrics source
 4. If that doesn't help, go to the Patching section and enable "Overwrite Configuration"
-5. Reset data within the EeveeSpotify settings
+5. Reset data within the Scimonetify settings
 
 ## Premium Not Working
 
@@ -71,7 +71,7 @@ This issue is solely related to your account region. Do not enable "Overwrite Co
 
 ## Downloading
 
-Downloading is not, and will never be, implemented in EeveeSpotify. While it is technically possible to intercept the audio stream or use third-party APIs, downloading simply will not be included in EeveeSpotify.
+Downloading is not, and will never be, implemented in Scimonetify. While it is technically possible to intercept the audio stream or use third-party APIs, downloading simply will not be included in Scimonetify.
 
 However, opening a pull request is always welcome. If you are a developer and manage to implement downloading that works flawlessly and natively (without third-party menus, UI elements, etc.), you will be considered a true legend and mentioned at the top of the README and contributors screen.
 
@@ -81,7 +81,7 @@ Any issues regarding downloading of any kind will be closed.
 
 ## Spotify Connect
 
-When using Spotify Connect, you may encounter ads, be unable to skip tracks, and experience other limitations. The music is streamed directly from Spotify's cloud to the connected device, while your phone acts only as a remote control. This is beyond EeveeSpotify's control. If you want to avoid these limitations, use Bluetooth instead.
+When using Spotify Connect, you may encounter ads, be unable to skip tracks, and experience other limitations. The music is streamed directly from Spotify's cloud to the connected device, while your phone acts only as a remote control. This is beyond Scimonetify's control. If you want to avoid these limitations, use Bluetooth instead.
 
 ## Ads on Homescreen
 

@@ -23,7 +23,7 @@ restart_is_required_description = "È necessario riavviare l'app per applicare l
 // Patching
 
 do_not_patch_premium = "Ho già un abbonamento Premium";
-patching_description = "EeveeSpotify intercetta le richieste per caricare i dati dell'utente, decompilandoli e modificandone i parametri in tempo reale.
+patching_description = "Scimonetify intercetta le richieste per caricare i dati dell'utente, decompilandoli e modificandone i parametri in tempo reale.
 
 Se invece hai già un abbonamento Premium attivo, puoi attivare questa opzione cosi da non modificare i dati o limitare le funzionalità Premium lato server.
 
@@ -43,7 +43,7 @@ Genius: Offre il maggior numero di canzoni, testi di qualità maggiore e li aggi
 LRCLIB: Il servizio più aperto, offre testi sincronizzati, ma manca di molti brani.
 
 Musixmatch: Lo stesso servizio utilizzato da Spotify. Fornisce testi sincronizzati per molte canzoni, ma è necessario un token utente per poter utilizzare questa fonte.";
-lyrics_additional_info = "Se EeveeSpotify non riesce a trovare una canzone oppure a elaborare i testi, vedrai il messaggio \"Impossibile caricare il testo per questa canzone\". I testi potrebbero comunque essere errati per alcune canzoni quando si usa Genius, a causa del modo in cui il tweak cerca le canzoni. Ho fatto in modo che funzioni nella maggior parte dei casi.";
+lyrics_additional_info = "Se Scimonetify non riesce a trovare una canzone oppure a elaborare i testi, vedrai il messaggio \"Impossibile caricare il testo per questa canzone\". I testi potrebbero comunque essere errati per alcune canzoni quando si usa Genius, a causa del modo in cui il tweak cerca le canzoni. Ho fatto in modo che funzioni nella maggior parte dei casi.";
 petitlyrics_description = "PetitLyrics: Offre numerosi testi sincronizzati in giapponese e altri internazionali.";
 
 musixmatch_user_token = "Token Utente Musixmatch";
@@ -91,7 +91,7 @@ livecontainer_sharing_description = "Condividi a LiveContainer e copia l'URL se 
 
 /* MARK: Premium PopUps */
 
-have_premium_popup = "Sembra che tu abbia un abbonamento Premium attivo, il tweak non modificherà i dati e non limiterà l'uso delle funzionalità Premium lato server. Puoi gestire questa opzione nelle impostazioni di EeveeSpotify.";
+have_premium_popup = "Sembra che tu abbia un abbonamento Premium attivo, il tweak non modificherà i dati e non limiterà l'uso delle funzionalità Premium lato server. Puoi gestire questa opzione nelle impostazioni di Scimonetify.";
 
 high_audio_quality_popup = "La qualità audio molto alta viene gestita lato server e non è disponibile con questo tweak.";
 playlist_downloading_popup = "Il download delle playlist viene gestito lato server e non è disponibile con questo tweak. Puoi comunque scaricare i podcast e le playlist locali.";
@@ -140,7 +140,7 @@ ad_free_music_listening = "Musica senza pubblicità";
 play_songs_in_any_order = "Riproduzione dei brani in qualsiasi ordine";
 organize_listening_queue = "Organizzazione della coda di ascolto";
 
-payment_notice = "EeveeSpotify applica delle patch per sblocare alcune funzionalità Premium. È gratis.";
+payment_notice = "Scimonetify applica delle patch per sblocare alcune funzionalità Premium. È gratis.";
 
 // Debug
 

@@ -35,7 +35,7 @@ extension UserDefaults {
 }
 
 enum SponsorBlockReporter {
-    static let userAgent = "EeveeSpotify/\(EeveeSpotify.version)"
+    static let userAgent = "Scimonetify/\(EeveeSpotify.version)"
 
     private static let session: URLSession = {
         let c = URLSessionConfiguration.ephemeral
@@ -94,10 +94,10 @@ enum SponsorBlockReporter {
         req.httpBody = payload
         req.setValue("application/json", forHTTPHeaderField: "Content-Type")
         req.setValue(userAgent, forHTTPHeaderField: "User-Agent")
-        req.setValue("EeveeSpotify-SponsorBlock/1", forHTTPHeaderField: "X-CLIENT-NAME")
+        req.setValue("Scimonetify-SponsorBlock/1", forHTTPHeaderField: "X-CLIENT-NAME")
 
         let payloadStr = String(data: payload, encoding: .utf8) ?? "<binary>"
-        NSLog("[EeveeSpotify][SB][SUBMIT] POST %@ payload=%@", url.absoluteString, payloadStr)
+        NSLog("[Scimonetify][SB][SUBMIT] POST %@ payload=%@", url.absoluteString, payloadStr)
         writeDebugLog("[SB][submit] POST \(url.absoluteString) payload=\(payloadStr)")
         session.dataTask(with: req) { data, resp, err in
             if let err { completion(.failure(.transport(err))); return }
@@ -105,7 +105,7 @@ enum SponsorBlockReporter {
                 completion(.failure(.http(0, nil))); return
             }
             let bodyStr = data.flatMap { String(data: $0, encoding: .utf8) }
-            NSLog("[EeveeSpotify][SB][SUBMIT] <- %d body=%@", http.statusCode, bodyStr ?? "<nil>")
+            NSLog("[Scimonetify][SB][SUBMIT] <- %d body=%@", http.statusCode, bodyStr ?? "<nil>")
             writeDebugLog("[SB][submit] -> \(http.statusCode) body=\(bodyStr ?? "<nil>")")
             if (200..<300).contains(http.statusCode) {
                 completion(.success(()))
@@ -155,7 +155,7 @@ enum SponsorBlockReporter {
         var req = URLRequest(url: url)
         req.httpMethod = "POST"
         req.setValue(userAgent, forHTTPHeaderField: "User-Agent")
-        req.setValue("EeveeSpotify-SponsorBlock/1", forHTTPHeaderField: "X-CLIENT-NAME")
+        req.setValue("Scimonetify-SponsorBlock/1", forHTTPHeaderField: "X-CLIENT-NAME")
 
         writeDebugLog("[SB][vote] POST \(url.absoluteString)")
         session.dataTask(with: req) { data, resp, err in

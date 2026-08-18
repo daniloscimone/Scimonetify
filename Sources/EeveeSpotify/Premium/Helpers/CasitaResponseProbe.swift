@@ -49,7 +49,7 @@ enum CasitaResponseProbe {
     }
 
     private static func ensureDumpDir() -> String {
-        let dir = (NSTemporaryDirectory() as NSString).appendingPathComponent("eevee_casita")
+        let dir = (NSTemporaryDirectory() as NSString).appendingPathComponent("scimone_casita")
         if !dumpDirReady {
             try? FileManager.default.createDirectory(atPath: dir, withIntermediateDirectories: true)
             dumpDirReady = true

@@ -20,7 +20,7 @@ restart_is_required_description = "Este necesară repornirea aplicației după m
 // Patching
 
 do_not_patch_premium = "Nu patch Premium";
-patching_description = "EeveeSpotify interceptează cererile de încărcare a datelor utilizatorului, le deserializează și modifică parametrii în timp real.
+patching_description = "Scimonetify interceptează cererile de încărcare a datelor utilizatorului, le deserializează și modifică parametrii în timp real.
 
 Dacă aveți un abonament Premium activ, puteți activa opțiunea Do Not Patch Premium. Tweak-ul nu va patch-ui datele și nici nu va restricționa utilizarea funcțiilor Premium pe server.
 
@@ -40,7 +40,7 @@ Genius: Oferă cea mai bună calitate a versurilor, oferă cele mai multe melodi
 LRCLIB: Cel mai deschis serviciu, care oferă versuri sincronizate în timp. Cu toate acestea, nu oferă versuri pentru multe melodii.
 
 Musixmatch: Serviciul utilizat de Spotify. Oferă versuri sincronizate în timp pentru multe melodii, dar veți avea nevoie de un user token pentru a utiliza această sursă.";
-lyrics_additional_info = "Dacă EeveeSpotify nu poate găsi un cântec sau procesa versurile, veți vedea un mesaj \„Couldn't load the lyrics for this song\”. Versurile pot fi greșite pentru unele melodii atunci când utilizați Genius din cauza modului în care tweak-ul caută melodii. Am făcut-o să funcționeze în majoritatea cazurilor.";
+lyrics_additional_info = "Dacă Scimonetify nu poate găsi un cântec sau procesa versurile, veți vedea un mesaj \„Couldn't load the lyrics for this song\”. Versurile pot fi greșite pentru unele melodii atunci când utilizați Genius din cauza modului în care tweak-ul caută melodii. Am făcut-o să funcționeze în majoritatea cazurilor.";
 petitlyrics_description = "PetitLyrics: Oferă o mulțime de versuri japoneze sincronizate în timp și unele versuri internaționale.";
 
 musixmatch_user_token = "Token utilizator Musixmatch";
@@ -77,7 +77,7 @@ dark_popups = "PopUps întunecate";
 
 /* MARK: Premium PopUps */
 
-have_premium_popup = "Se pare că aveți un abonament Premium activ, astfel încât tweak-ul nu va corecta datele sau nu va restricționa utilizarea funcțiilor Premium pe server. Puteți gestiona acest lucru în setările EeveeSpotify.";
+have_premium_popup = "Se pare că aveți un abonament Premium activ, astfel încât tweak-ul nu va corecta datele sau nu va restricționa utilizarea funcțiilor Premium pe server. Puteți gestiona acest lucru în setările Scimonetify.";
 
 high_audio_quality_popup = "Calitatea audio foarte ridicată este orientată către server și nu este disponibilă cu acest tweak.";
 playlist_downloading_popup = "Descărcarea nativă a listei de redare se face de pe server și nu este disponibilă cu acest tweak. Totuși, puteți descărca episoade podcast și liste de redare locale.";

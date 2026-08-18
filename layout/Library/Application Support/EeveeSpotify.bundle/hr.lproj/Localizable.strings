@@ -20,7 +20,7 @@ restart_is_required_description = "Potrebno je ponovno pokretanje aplikacije nak
 // Zakrpanje
 
 do_not_patch_premium = "Ne zakrpaj Premium";
-patching_description = "EeveeSpotify presreće zahtjeve za učitavanje korisničkih podataka, deserializira ih i modificira parametre u stvarnom vremenu.
+patching_description = "Scimonetify presreće zahtjeve za učitavanje korisničkih podataka, deserializira ih i modificira parametre u stvarnom vremenu.
 
 Ako imate aktivnu Premium pretplatu, možete uključiti opciju Ne zakrpaj Premium. Tweak neće zakrpati podatke niti ograničiti korištenje Premium značajki na strani poslužitelja.
 
@@ -40,7 +40,7 @@ Genius: Nudi najbolju kvalitetu tekstova, pruža najviše pjesama i najbrže až
 LRCLIB: Najotvorenija usluga, nudi sinkronizirane tekstove. Međutim, nedostaju tekstovi za mnoge pjesme.
 
 Musixmatch: Usluga koju koristi Spotify. Pruža sinkronizirane tekstove za mnoge pjesme, ali potreban vam je korisnički token za korištenje ovog izvora.";
-lyrics_additional_info = "Ako EeveeSpotify ne može pronaći pjesmu ili obraditi tekstove, vidjet ćete poruku 'Nije moguće učitati tekstove za ovu pjesmu'. Tekstovi mogu biti pogrešni za neke pjesme kada se koristi Genius zbog načina na koji tweak pretražuje pjesme. U većini slučajeva sam to uspio riješiti.";
+lyrics_additional_info = "Ako Scimonetify ne može pronaći pjesmu ili obraditi tekstove, vidjet ćete poruku 'Nije moguće učitati tekstove za ovu pjesmu'. Tekstovi mogu biti pogrešni za neke pjesme kada se koristi Genius zbog načina na koji tweak pretražuje pjesme. U većini slučajeva sam to uspio riješiti.";
 petitlyrics_description = "PetitLyrics: Nudi mnoštvo sinkroniziranih japanskih i nekih međunarodnih tekstova.";
 
 musixmatch_user_token = "Musixmatch korisnički token";
@@ -77,7 +77,7 @@ dark_popups = "Tamni skočni prozori";
 
 /* MARK: Premium skočni prozori */
 
-have_premium_popup = "Izgleda da imate aktivnu Premium pretplatu, pa tweak neće zakrpati podatke niti ograničiti korištenje Premium značajki na strani poslužitelja. To možete upravljati u postavkama EeveeSpotify.";
+have_premium_popup = "Izgleda da imate aktivnu Premium pretplatu, pa tweak neće zakrpati podatke niti ograničiti korištenje Premium značajki na strani poslužitelja. To možete upravljati u postavkama Scimonetify.";
 
 high_audio_quality_popup = "Vrlo visoka kvaliteta zvuka je na strani poslužitelja i nije dostupna s ovim tweakom.";
 playlist_downloading_popup = "Izvorno preuzimanje popisa za reprodukciju je na strani poslužitelja i nije dostupno s ovim tweakom. Ipak možete preuzeti epizode podcasta i lokalne popise za reprodukciju.";

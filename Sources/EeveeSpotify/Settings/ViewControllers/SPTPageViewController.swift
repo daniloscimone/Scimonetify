@@ -10,7 +10,7 @@ class SPTPageViewController: UIViewController {
     }
 
     @objc func spt_pageIdentifier() -> String? {
-        return "EeveeSpotify"
+        return "Scimonetify"
     }
 
     @objc func spt_pageURI() -> NSURL? {

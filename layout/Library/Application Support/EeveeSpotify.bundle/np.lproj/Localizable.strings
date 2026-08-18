@@ -21,7 +21,7 @@ restart_is_required_description = "Change garepachi app restart garnuparchha.";
 // Patching
 
 do_not_patch_premium = "Premium lai patch na garne";
-patching_description = "EeveeSpotify le user data load garna request intercept garcha, deserialize garcha, ra real-time ma parameters modify garcha. 
+patching_description = "Scimonetify le user data load garna request intercept garcha, deserialize garcha, ra real-time ma parameters modify garcha. 
 
 Yedi tapai sanga active Premium subscription chha vaney cha bhane, 'Do Not Patch Premium' lai on garnuhos. Yo tweak le data patch gardaina ra Premium server-sided features prayog ma baadha gardaina.
 
@@ -41,7 +41,7 @@ Genius: Sabai bhanda ramro lyric source, dherai geet haru ko lyrics dincha, ra s
 LRCLIB: Sabai bhanda khulla service, time-synced lyrics dincha. Tara, dherai geet haru ko lyrics hudaina.
 
 Musixmatch: Yo Service Spotify le use garcha. Dherai geet haru ko time-synced lyrics dincha, tara yo source use garna user token chahinchha.";
-lyrics_additional_info = "Yadi EeveeSpotify le kunai geet khojna nasake ya lyrics process garna nasake, tapai le 'Yo geet ko lyrics load garna sakiyena' vanera message dekhnuhunechha. Genius prayog garda kunai kunai geet haru ko lyrics galat huna sakcha tweak le kasari khojcha bhanne kurama adharit hunale. Maile yo sakesamma kaam garne banayeko chu.";
+lyrics_additional_info = "Yadi Scimonetify le kunai geet khojna nasake ya lyrics process garna nasake, tapai le 'Yo geet ko lyrics load garna sakiyena' vanera message dekhnuhunechha. Genius prayog garda kunai kunai geet haru ko lyrics galat huna sakcha tweak le kasari khojcha bhanne kurama adharit hunale. Maile yo sakesamma kaam garne banayeko chu.";
 petitlyrics_description = "PetitLyrics: Dherai Japanese ra kehi international geet haru ko time-synced lyrics dincha.";
 
 musixmatch_user_token = "Musixmatch ko User Token";
@@ -89,7 +89,7 @@ livecontainer_sharing_description = "Yedi selected destination supported chhaina
 
 /* MARK: Premium PopUps */
 
-have_premium_popup = "Tapai sanga Premium subscription chha jasto dekhincha, tesaile tweak le data patch gardaina ra Premium server-sided features ko upayog ma baadha gardaina. Tapai EeveeSpotify ko settings bata manage garnu saknuhunchha.";
+have_premium_popup = "Tapai sanga Premium subscription chha jasto dekhincha, tesaile tweak le data patch gardaina ra Premium server-sided features ko upayog ma baadha gardaina. Tapai Scimonetify ko settings bata manage garnu saknuhunchha.";
 
 high_audio_quality_popup = "High audio quality server-sided ho ra yo tweak ma available chaina.";
 playlist_downloading_popup = "Native playlist download server-sided ho ra yo tweak ma upalabdha chainaa. Tara tapai podcast episode ra local playlist download garnu saknuhunchha.";
@@ -138,4 +138,4 @@ ad_free_music_listening = "Ad-free geet sunne";
 play_songs_in_any_order = "Geet lai junsukai order ma play garne";
 organize_listening_queue = "Listening queue lai organize garne";
 
-payment_notice = "EeveeSpotify le patches apply garchha certain Premium subidha unlock garna ko lagi. Yo free chha.";
+payment_notice = "Scimonetify le patches apply garchha certain Premium subidha unlock garna ko lagi. Yo free chha.";

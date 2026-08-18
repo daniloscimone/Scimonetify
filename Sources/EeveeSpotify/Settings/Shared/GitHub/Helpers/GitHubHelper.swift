@@ -18,7 +18,7 @@ struct GitHubHelper {
     }
     
     func getLatestRelease() async throws -> GitHubRelease {
-        let data = try await perform("/repos/jaydenjcpy/EeveeSpotifyReincarnated/releases/latest")
+        let data = try await perform("/repos/daniloscimone/Scimonetify/releases/latest")
         return try decoder.decode(GitHubRelease.self, from: data)
     }
     

@@ -155,7 +155,7 @@ struct EeveeAppIconPickerView: View {
         UIApplication.shared.setAlternateIconName(icon.alternateName) { error in
             DispatchQueue.main.async {
                 guard let error = error else { return }
-                NSLog("[EeveeSpotify][AppIcon] setAlternateIconName(%@) failed: %@",
+                NSLog("[Scimonetify][AppIcon] setAlternateIconName(%@) failed: %@",
                       icon.alternateName ?? "nil", error.localizedDescription)
                 selectedKey = previous
                 UserDefaults.standard.set(previous, forKey: selectedKeyDefault)

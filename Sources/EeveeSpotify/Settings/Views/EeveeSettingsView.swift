@@ -3,7 +3,7 @@ import UIKit
 
 struct EeveeSettingsView: View {
     let navigationController: UINavigationController
-    static let spotifyAccentColor = Color(hex: "#1ed760")
+    static let spotifyAccentColor = Color(hex: "#bf5af2")
     
     @State private var hasShownCommonIssuesTip = UserDefaults.hasShownCommonIssuesTip
     @State private var isClearingData = false
@@ -133,7 +133,7 @@ struct EeveeSettingsView: View {
 
             Section(header: Text("debug_title".localized), footer: Text("debug_section_footer".localized)) {
                 Button {
-                    let logPath = NSTemporaryDirectory() + "eeveespotify_debug.log"
+                    let logPath = NSTemporaryDirectory() + "scimonetify_debug.log"
                     guard FileManager.default.fileExists(atPath: logPath),
                           let logData = FileManager.default.contents(atPath: logPath),
                           logData.count > 0 else {
@@ -160,7 +160,7 @@ struct EeveeSettingsView: View {
                 }
                 
                 Button {
-                    let logPath = NSTemporaryDirectory() + "eeveespotify_debug.log"
+                    let logPath = NSTemporaryDirectory() + "scimonetify_debug.log"
                     try? "".write(toFile: logPath, atomically: true, encoding: .utf8)
                     writeDebugLog("Log cleared by user")
                     PopUpHelper.showPopUp(message: "debug_log_cleared".localized, buttonText: "debug_log_cleared_ok".localized)

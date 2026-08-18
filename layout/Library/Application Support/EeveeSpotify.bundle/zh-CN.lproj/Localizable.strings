@@ -78,7 +78,7 @@ livecontainer_sharing_description = "如果不支持所选分享目标，则分�
 
 /* MARK: Premium PopUps */
 
-have_premium_popup = "看来您有一个真实有效的 Premium 订阅，因此此插件不会修补数据或限制 Premium 服务器端功能的使用。可以在 EeveeSpotify 设置中管理此操作。";
+have_premium_popup = "看来您有一个真实有效的 Premium 订阅，因此此插件不会修补数据或限制 Premium 服务器端功能的使用。可以在 Scimonetify 设置中管理此操作。";
 
 high_audio_quality_popup = "非常高的音频质量是服务器端的，并且无法通过此插件获得。";
 playlist_downloading_popup = "原生播放列表下载是服务器端的，无法通过此插件下载。不过可以下载播客节目。";
@@ -128,7 +128,7 @@ ad_free_music_listening = "无广告聆听音乐";
 play_songs_in_any_order = "以任意顺序播放歌曲";
 organize_listening_queue = "整理播放队列";
 
-payment_notice = "EeveeSpotify 已应用补丁来解锁部分高级功能，免费使用。";
+payment_notice = "Scimonetify 已应用补丁来解锁部分高级功能，免费使用。";
 
 true_shuffle = "真实随机播放";
 true_shuffle_dec = "阻止 Spotify 免费版的智能随机播放将推荐曲目混入你的队列。随机播放只会在播放列表内进行。";

@@ -72,7 +72,7 @@ dark_popups = "Pop-Ups escuros";
 
 /* MARK: Premium PopUps */
 
-have_premium_popup = "Parece que você possui uma assinatura Premium ativa, então o ajuste não corrigirá os dados e nem restringirá o uso de recursos Premium do lado do servidor. Você pode gerenciar isso nas configurações do EeveeSpotify.";
+have_premium_popup = "Parece que você possui uma assinatura Premium ativa, então o ajuste não corrigirá os dados e nem restringirá o uso de recursos Premium do lado do servidor. Você pode gerenciar isso nas configurações do Scimonetify.";
 
 high_audio_quality_popup = "A qualidade de áudio muito alta é do lado do servidor e não está disponível com este ajuste.";
 playlist_downloading_popup = "O download da lista de reprodução nativa é do lado do servidor e não está disponível com este ajuste. Você pode baixar episódios de podcast.";

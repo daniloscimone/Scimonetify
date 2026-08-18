@@ -9,7 +9,7 @@ struct V91SettingsIntegrationGroup: HookGroup { }
 func showVersionBannerOnWindow(_ window: UIWindow) {
     // Create a banner view - increased height for 3 lines
     let banner = UIView(frame: CGRect(x: 20, y: -120, width: window.bounds.width - 40, height: 100))
-    banner.backgroundColor = .systemGreen
+    banner.backgroundColor = .systemPurple
     banner.layer.cornerRadius = 12
     banner.layer.shadowColor = UIColor.black.cgColor
     banner.layer.shadowOpacity = 0.3
@@ -22,9 +22,9 @@ func showVersionBannerOnWindow(_ window: UIWindow) {
     label.textColor = .white
     label.font = UIFont.systemFont(ofSize: 13, weight: .semibold)
     label.text = """
-    🎵 EeveeSpotify v\(EeveeSpotify.version)
+    🎵 Scimonetify v\(EeveeSpotify.version)
     Spotify \(Bundle.main.infoDictionary!["CFBundleShortVersionString"] as! String)
-    Updated by Skye
+    Updated by Danilo Scimone
     """
     banner.addSubview(label)
     

@@ -5,7 +5,7 @@ class URLSessionHelper {
 
     /// Accessed from URLSession delegate callbacks which may be concurrent.
     /// Keep all mutations synchronized to avoid races / EXC_BAD_ACCESS.
-    private let queue = DispatchQueue(label: "com.eeveespotify.urlsessionhelper.requestsMap")
+    private let queue = DispatchQueue(label: "com.scimonetify.urlsessionhelper.requestsMap")
 
     /// Keyed by the task object's identity, not its URL. Two concurrent tasks
     /// hitting the same URL (retry / dedup race / parallel fetch) would otherwise

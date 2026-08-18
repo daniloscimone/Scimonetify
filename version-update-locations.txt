@@ -1,4 +1,4 @@
-EeveeSpotify Version Update Locations
+Scimonetify Version Update Locations
 =====================================
 
 When bumping the version, update these 3 files:

@@ -4,6 +4,11 @@
         "shuffled": false,
         "contributors": [
             {
+                "usernames": ["daniloscimone"],
+                "displayName": "Danilo Scimone",
+                "roles": ["Scimonetify Maintainer"]
+            },
+            {
                 "usernames": ["jaydenjcpy"],
                 "displayName": "jaydenjcpy",
                 "roles": ["Maintainer", "Developer"]

@@ -5,7 +5,7 @@ import EeveeSpotifyC
 final class SponsorBlockSkipper {
     static let shared = SponsorBlockSkipper()
 
-    private let queue = DispatchQueue(label: "com.eevee.sponsorblock.skipper")
+    private let queue = DispatchQueue(label: "com.scimonetify.sponsorblock.skipper")
 
     init() {
         NotificationCenter.default.addObserver(
