@@ -141,13 +141,3 @@ Thanks to everyone in the community, and to every developer whose work this buil
 This project is an **independent modification ("tweak")** for the Spotify app. It is **not affiliated with, endorsed by, or in any way officially connected to Spotify** or any of its subsidiaries or affiliates.
 
 It exists purely for **personal and educational purposes**. Use it at your own risk — **we take no responsibility** for any issues, damages, or consequences arising from its use or misuse.
-
-## Star History
-
-<a href="https://www.star-history.com/?repos=daniloscimone%2FScimonetify&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=daniloscimone/Scimonetify&type=date&theme=dark&legend=top-left&sealed_token=C1hKWTv3UNdLAgsZjjCL7Rthp6YSGB4Mm9kIalnH1lgZXZnYVL09WbBt57E-FFzQXg8gZyFOW356S5XMTWmvQdIuEihF66WxqGuJTejmAdJx5XJHxC2l3A" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=daniloscimone/Scimonetify&type=date&legend=top-left&sealed_token=C1hKWTv3UNdLAgsZjjCL7Rthp6YSGB4Mm9kIalnH1lgZXZnYVL09WbBt57E-FFzQXg8gZyFOW356S5XMTWmvQdIuEihF66WxqGuJTejmAdJx5XJHxC2l3A" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=daniloscimone/Scimonetify&type=date&legend=top-left&sealed_token=C1hKWTv3UNdLAgsZjjCL7Rthp6YSGB4Mm9kIalnH1lgZXZnYVL09WbBt57E-FFzQXg8gZyFOW356S5XMTWmvQdIuEihF66WxqGuJTejmAdJx5XJHxC2l3A" />
- </picture>
-</a>
