@@ -14,13 +14,24 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Detect Xcode project/workspace
+        id: detect_xcode
+        run: |
+          if ls -A | grep -iqE '\.(xcworkspace|xcodeproj)$'; then
+            echo "has_xcode_project=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_xcode_project=false" >> "$GITHUB_OUTPUT"
+            echo "No .xcodeproj or .xcworkspace found; skipping xcodebuild."
+          fi
       - name: Set Default Scheme
+        if: steps.detect_xcode.outputs.has_xcode_project == 'true'
         run: |
           scheme_list=$(xcodebuild -list -json | tr -d "\n")
           default=$(echo $scheme_list | ruby -e "require 'json'; puts JSON.parse(STDIN.gets)['project']['targets'][0]")
           echo $default | cat >default
           echo Using default scheme: $default
       - name: Build
+        if: steps.detect_xcode.outputs.has_xcode_project == 'true'
         env:
           scheme: ${{ 'default' }}
         run: |
