@@ -10,10 +10,22 @@ jobs:
   build:
     name: Build and analyse default scheme using xcodebuild command
     runs-on: macos-latest
+    env:
+      THEOS: ${{ github.workspace }}/theos
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup Theos
+        uses: actions/checkout@v4
+        with:
+          repository: theos/theos
+          path: ${{ github.workspace }}/theos
+          submodules: recursive
+      - name: Generate Theos SwiftPM config
+        run: |
+          brew install make
+          gmake spm
       - name: Set Default Scheme
         run: |
           scheme_list=$(xcodebuild -list -json | tr -d "\n")
